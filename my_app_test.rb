@@ -1,6 +1,7 @@
-require 'hello.rb'
+require 'my_app'
 require 'test/unit'
 require 'rack/test'
+require 'sinatra/test/unit'
 
 set :environment, :test
 
